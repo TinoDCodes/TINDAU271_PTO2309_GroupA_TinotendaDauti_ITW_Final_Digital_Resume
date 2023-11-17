@@ -3,7 +3,7 @@
 /* Mobile view styling and layout */
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  height: fit-content;
   width: auto;
   margin: 0;
   scroll-behavior: smooth;
