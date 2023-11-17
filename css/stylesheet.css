@@ -192,6 +192,88 @@ nav {
   padding-left: 0.2rem;
 }
 
+footer {
+  background-color: #7b99713c;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-desc {
+  width: auto;
+  padding-inline: 1rem;
+}
+
+.footer-desc h2 {
+  font-size: 0.9rem;
+  margin-block: 0.2rem;
+}
+
+.footer-desc p {
+  font-size: 0.65rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #7b99717d;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.49);
+  padding: 1rem;
+  padding-top: 1.5rem;
+  width: fit-content;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.user-email {
+  width: 15rem;
+  padding: 0.5rem;
+  border: 1px solid #4a5048be;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.65rem;
+}
+
+.select {
+  padding: 0.5rem;
+  width: fit-content;
+  border: 1px solid #4a5048be;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.65rem;
+}
+
+.msg {
+  padding: 0.5rem;
+  border: 1px solid #4a5048be;
+  border-radius: 0.5rem;
+  width: 15rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.65rem;
+}
+
+.send-btn {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #19940e;
+  color: #fff;
+  font-weight: 600;
+  width: 6rem;
+  margin-left: auto;
+}
+
+.send-btn:hover {
+  scale: 0.9;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 /* Tablet view styling and layout */
 @media only screen and (min-width: 768px) {
   header {
@@ -344,6 +426,67 @@ nav {
   .ed-duration {
     font-size: 0.8rem;
   }
+
+  footer {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: normal;
+  }
+
+  .footer-desc {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .footer-desc h2 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-desc p {
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    margin-left: 9rem;
+  }
+
+  .user-email {
+    width: 16rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .msg {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 16rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .send-btn {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 8rem;
+    margin-left: auto;
+  }
 }
 
 /* Laptop and larger device view styling and layout */
@@ -472,5 +615,65 @@ nav {
 
   .ed-duration {
     font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .footer-desc {
+    width: 100%;
+    margin-left: 8rem;
+  }
+
+  .footer-desc h2 {
+    font-size: 1.425rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-desc p {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    margin-left: 12rem;
+  }
+
+  .user-email {
+    width: 20rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .msg {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .send-btn {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 9rem;
+    margin-left: auto;
   }
 }

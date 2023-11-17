@@ -373,6 +373,45 @@
     </main>
 
     <!-- bottom page portion -->
-    <footer></footer>
+    <footer id="contact">
+      <div class="footer-desc">
+        <h2>Contact Me</h2>
+        <p>
+          Use this form to leave any comments, ask any questions or if you wish
+          to discuss an interview
+        </p>
+      </div>
+      <form
+        action="https://formsubmit.co/1f693b2148964b82ca3c8495343e6f96"
+        method="POST"
+        class="contact-card"
+      >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email address"
+          required
+          class="user-email"
+        />
+
+        <select name="_subject" id="subject" class="select" required>
+          <option value="Interview Opportunity">Interview Opportunity</option>
+          <option value="Resume Feedback">Resume Feedback</option>
+          <option value="General Enquiry">General Enquiry</option>
+        </select>
+
+        <textarea
+          name="message"
+          id="text"
+          cols="40"
+          rows="8"
+          placeholder="Type your message here (optional)..."
+          class="msg"
+        ></textarea>
+
+        <button type="submit" class="send-btn">Send</button>
+      </form>
+    </footer>
   </body>
 </html>
