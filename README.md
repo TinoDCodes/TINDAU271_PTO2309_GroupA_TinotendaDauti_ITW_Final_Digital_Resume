@@ -11,6 +11,7 @@ Completed as part of the final capstone project for CodeSpace Intro to Web cours
 
 - HTML
 - CSS
+- Figma wireframe link: https://www.figma.com/file/t1pqKe366WXUCCMFTrjJvF/ITW_Figma-Resume-TINDAU271?type=design&mode=design&t=l5JF0yiTHFmabxij-1
 
 ## Getting Started
 
